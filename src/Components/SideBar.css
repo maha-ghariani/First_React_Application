@@ -1,0 +1,23 @@
+.side {
+    width: 350px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+  padding-top: 180px;
+    background-color: gray;
+   color: white; 
+    font-style: italic;
+}
+.bloc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    margin-bottom:18px
+  }
+  .bloc:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
